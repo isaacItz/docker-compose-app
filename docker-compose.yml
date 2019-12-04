@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  web:
+    build: ./app
+    depends_on:
+       - db
+    container_name: apache_web
+    restart: always
+    ports:
+      - "80:80"
+
+  db:
+    image: mysql:5.7
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_DATABASE: LPURLS
+      MYSQL_USER: lpurlsuser
+      MYSQL_PASSWORD: lpurlspasswd
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: lpurlspasswd
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - my-db:/var/lib/mysql
+
+volumes:
+  my-db:
