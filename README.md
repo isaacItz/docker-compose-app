@@ -14,8 +14,8 @@ This version is running two containers on Docker Compose
 > Password: lpurlspasswd
 
 ## The table contains three fields:
-> id          int(11)
+> id: int(11)
 
-> url	        varchar(512)
+> url: varchar(512)
 
-> shortened   varchar(255)
+> shortened: varchar(255)
