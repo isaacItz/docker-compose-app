@@ -4,13 +4,13 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LeasePlan Docker Compose URL shortener</title>
+  <title>Docker Compose URL shortener</title>
 </head>
 <body>
 
 <div class="container">
   <h2>LeasePlan Docker Compose URL shortener</h2>
-  <img src="lp_logo2.png" alt="LeasePlan Logo" /> <img src="aws_logo2.png" alt="AWS Logo" /></p>
+  <img src="lp_logo2.png" alt="Logo" /> <img src="aws_logo2.png" alt="AWS Logo" /></p>
 
 <style type="text/css">
 <!--

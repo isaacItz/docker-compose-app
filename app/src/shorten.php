@@ -4,13 +4,13 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LeasePlan Docker Compose URL shortener</title>
+  <title>Docker Compose URL shortener</title>
 </head>
 <body>
 
 <div class="container">
   <h2>LeasePlan Docker Compose URL shortener</h2>
-  <img src="lp_logo2.png" alt="LeasePlan Logo" /> <img src="aws_logo2.png" alt="AWS Logo" /></p>
+  <img src="lp_logo2.png" alt="Logo" /> <img src="aws_logo2.png" alt="AWS Logo" /></p>
 
 <style type="text/css">
 <!--
@@ -59,15 +59,15 @@ $id=rand(10000,99999);
 $shorturl=base_convert($id,20,36);
 $sql = "insert into testurls values('$id','$urlinput','$shorturl')";
 mysqli_query($con,$sql);
-echo "Shortened URL is <a href=\"http://3.248.195.249/decoder.php?decode=". $shorturl ."\">http://leaseplantest.com/". $shorturl ."</a>";
-//echo "Shortened URL is <a href=\"http://52.17.207.99/url/". $shorturl ."\">http://leaseplantest.com/". $shorturl ."</a>";
+echo "Shortened URL is <a href=\"http://3.248.195.249/decoder.php?decode=". $shorturl ."\">http://test.com/". $shorturl ."</a>";
+//echo "Shortened URL is <a href=\"http://52.17.207.99/url/". $shorturl ."\">http://test.com/". $shorturl ."</a>";
 mysqli_close($con);
 ?>
 
 </div>
 
 <div class="footer">
-<p>&copy; Developed by <a href="https://www.leaseplan.com">LeasePlan</a> @ AWS Immersion Day [Atlanta 2019]</p>
+<p>&copy; Developed by <a href="mailto:julibcn">LeasePlan</a> @ AWS Immersion Day</p>
 </div>
 </body>
 </html>
