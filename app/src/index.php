@@ -56,7 +56,7 @@ text-align:center;
 </div>
 
 <div class="footer">
-<p>&copy; Developed by <a href="mailto:julibcn"">Company</a> @ AWS Immersion Day</p>
+<p>&copy; Developed by <a href="mailto:julibcn"">JuliBCN</a> @ AWS Immersion Day</p>
 </div>
 </body>
 </html>
