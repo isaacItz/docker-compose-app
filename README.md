@@ -57,6 +57,4 @@ This version is running two containers on Docker Compose
 
 *Modify line 62 with your public IP*
 
-> cd ..
-
 > docker-compose up
