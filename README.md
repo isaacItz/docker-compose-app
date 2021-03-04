@@ -55,6 +55,6 @@ This version is running two containers on Docker Compose
 
 > nano app/src/shorten.php
 
-*Modify line 62 with your public IP*
+*Modify line 62 with your IP or DNS domain name*
 
 > docker-compose up
