@@ -53,12 +53,10 @@ This version is running two containers on Docker Compose
 
 > cd docker-compose-app
 
-> 
+> nano app/src/shorten.php
 
-> 
+*Modify line 62 with your public IP*
+
+> cd ..
 
 > docker-compose up
-
-
-
-## 
