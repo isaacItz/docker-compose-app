@@ -59,7 +59,7 @@ $id=rand(10000,99999);
 $shorturl=base_convert($id,20,36);
 $sql = "insert into testurls values('$id','$urlinput','$shorturl')";
 mysqli_query($con,$sql);
-echo "Shortened URL is <a href=\"http://63.35.234.104/decoder.php?decode=". $shorturl ."\">http://test.com/". $shorturl ."</a>";
+echo "Shortened URL is <a href=\"http://63.35.234.104/decoder.php?decode=". $shorturl ."\">http://63.35.234.104/". $shorturl ."</a>";
 mysqli_close($con);
 ?>
 
