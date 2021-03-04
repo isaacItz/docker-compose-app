@@ -57,4 +57,4 @@ This version is running two containers on Docker Compose
 
 *Modify line 62 with your IP or DNS domain name*
 
-> docker-compose up
+> docker-compose up -d
