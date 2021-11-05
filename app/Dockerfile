@@ -1,9 +1,9 @@
 #FROM ubuntu:18.04
 FROM ubuntu:20.04
-LABEL maintainer="JuliBCN <julibcn@gmail.com>"
+LABEL maintainer="Isaac Valdespino <isaac.est.cbtis@gmail.com>"
 
 # Install Dependencies
-ENV TZ=Europe/Dublin
+ENV TZ=America/Mexico_City
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get -y install apache2 curl mysql-client
 
